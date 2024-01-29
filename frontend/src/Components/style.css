@@ -1,0 +1,121 @@
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  .Title{
+    font-size: 50px;
+    font-weight: bolder;
+    color: #fff;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    font-family: 'Book Antiqua' serif;
+
+
+  }
+  .formContainer {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+.customFileInput {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    margin-right: 50px;
+  }
+  
+  .customFileInput input {
+    display: none;
+  }
+  
+  .customFileInput:hover {
+    background-color: #45a049;
+  }
+  
+  .uploadButton {
+    background-color: #007bff; 
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 50px;
+  }
+
+  
+  
+  .resultContainer {
+    margin-top: 20px;
+    box-shadow: none;
+  }
+  
+  .resultValue {
+    font-weight: bold;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+  }
+  
+  .loading {
+    margin-top: 20px;
+    font-style: italic;
+    color: #fff;
+  }
+  
+  .buttonGrid {
+    text-align: center;
+  }
+  
+  .uploadedImage {
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+  }
+  
+  .clearButton{
+        background-color: #e67e22; 
+        color: #fff;
+        padding: 10px 20px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+  }
+
+
+.Description {
+    font-size: 18px;
+    color: #807f7f;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  
+  .PlantList {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .PlantList li {
+    margin-right: 10px; /* Adjust the spacing as needed */
+  }
+  
+  .PlantList li:not(:last-child) {
+    margin-right: 10px; /* Adjust the spacing as needed */
+  }
+  
+  .PlantList li::before {
+    content: '•'; /* Bullet character */
+    margin-right: 5px; /* Adjust the spacing between disc and text */
+  }
+  
+  
