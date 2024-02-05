@@ -15,7 +15,9 @@ The project employs a cutting-edge transfer learning approach, utilizing the pre
 ## Model Evaluation
 
 The trained model boasts an outstanding accuracy of 99% on the training dataset and an impressive test accuracy of 89%. A comprehensive set of evaluation metrics is available in the main code file, ensuring robust assessment and validation.
-
+## Predictions
+The model sample predictions 
+![Screenshot 2023-12-30 221212](https://github.com/zihath/Medicinal-Plants-Image-Classification/assets/133570794/c286ad4a-9425-4807-9189-67bfbf055efd)
 ## API
 
 For seamless integration and interaction, a RESTful API has been meticulously developed using the FAST API framework. The API incorporates the use of a saved pre-trained model, providing a reliable interface for external applications.
